@@ -21,6 +21,3 @@ Part 2 will be completed next week.
 
 ### App Walkthough GIF
 <img src="https://cl.ly/25247de36baa/Screen%2520Recording%25202019-02-18%2520at%252003.50%2520PM.gif" width=250><br>
-
-### Notes
-Describe any challenges encountered while building the app.
