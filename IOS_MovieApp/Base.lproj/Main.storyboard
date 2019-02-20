@@ -121,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7h-or-2qI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="121" y="1456"/>
+            <point key="canvasLocation" x="162" y="1568"/>
         </scene>
         <!--Now Playing-->
         <scene sceneID="QKS-EP-wmC">
@@ -176,6 +176,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterView" destination="d3e-uV-Pml" id="MhS-L5-tUl"/>
+                                            <segue destination="12V-9w-ObY" kind="show" id="adA-ci-41b"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -192,6 +193,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8M-W0-eHY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1352.8" y="741.67916041979015"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QAn-PD-mbt">
+            <objects>
+                <viewController id="h1s-Hp-Eux" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nWV-ha-LBC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNI-o1-vYp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="264"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Uzu-py-lsK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oBN-Gd-V5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1353" y="1567"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Soq-wF-Abk">
@@ -235,4 +257,7 @@
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="adA-ci-41b"/>
+    </inferredMetricsTieBreakers>
 </document>
