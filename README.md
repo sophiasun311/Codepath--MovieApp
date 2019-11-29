@@ -34,8 +34,6 @@ MovieApp is an app that allows users to browse movies from the [The Movie Databa
 
 ### App Walkthough GIF
 
-<img src="https://d3r69eeiwn2k86.cloudfront.net/items/2H2T0B1D1h2s3I440X3y/Screen%20Recording%202019-02-19%20at%2008.02%20PM.gif" width=250><br>
-
-<img src="https://d3r69eeiwn2k86.cloudfront.net/items/2Q2U3k2N0a1t3L2o0T3Z/Screen%20Recording%202019-02-19%20at%2008.15%20PM.gif" width=250><br>
+<img src="https://recordit.co/I0CqjJcUl1.gif" width=250><br>
 
 
